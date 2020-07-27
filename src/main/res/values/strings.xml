@@ -1,0 +1,110 @@
+<resources>
+    <string name="title_activity_app_config">Config</string>
+    <string name="title_activity_printerMain">Print</string>
+    <string name="Print">Print</string>
+    <string name="app_name">demo-printer</string>
+    <string-array name="arrayPrintSpeed">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="arrayPrintGray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string name="title_printer_barcode">Barcode</string>
+    <string name="title_printer_pic">Picture</string>
+    <string-array name="arrayBarcodeType">
+        <item>UPC-A</item>
+        <item>UPC-E</item>
+        <item>JAN13(EAN13)</item>
+        <item>JAN8(EAN8)</item>
+        <item>CODE39</item>
+        <item>ITF(Interleaved 2 of 5)</item>
+        <item>CODABAR(NW-7)</item>
+        <item>CODE93</item>
+        <item>CODE128</item>
+        <item>UCC/EAN128</item>
+        <item>QR</item>
+    </string-array>
+    <string-array name="BarcodeWidth">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="spBarcodePosition">
+        <item>Not show</item>
+        <item>Above the barcode.</item>
+        <item>The bottom of the barcode.</item>
+        <item>The top and bottom of the barcode</item>
+    </string-array>
+    <string name="printing">Printing...</string>
+    <string name="printNormal">The printer is working normally.</string>
+    <string name="printLackofpaper">The printer is out of paper</string>
+    <string name="printOverpressure">The printer is overvoltage.</string>
+    <string name="printOverheating">The printer is overheated.</string>
+    <string name="printPressureaxisopen">Printer shaft open</string>
+    <string name="printPaperstuck">Printer paper stuck</string>
+    <string name="printSlicingerror">Printer cutting error</string>
+    <string name="printPaperfinish">Printer paper used up</string>
+    <string name="printCancelpaper">User doesnot get paper</string>
+    <string name="printLeisure">Printer available.</string>
+    <string name="printUnleisure">The printer data is full.</string>
+    <string name="printBarcodeType">Barcode Type</string>
+    <string name="printBarcodeHeight">Barcode height</string>
+    <string name="printBarcodeWidth">Barcode width</string>
+    <string name="printBarcodeChar">Character position</string>
+    <string name="printSpeed">Speed</string>
+    <string name="printGray">Gray</string>
+    <string name="printLeftMargin">Left margin</string>
+    <string name="printRightMargin">Right margin</string>
+    <string name="printRowSpacing">Row spacing</string>
+    <string name="printItalic">Italic</string>
+    <string name="printFrame">Frame</string>
+    <string name="printBold">Bold</string>
+    <string name="printDoubleWidth">Double width</string>
+    <string name="printSet">set</string>
+    <string name="printDoubleHight">Double hight</string>
+    <string name="printWhite">White</string>
+    <string name="printUnderline">Underline</string>
+    <string name="printRowSpacingFail">Set the row spacing failure.</string>
+    <string name="printLeftRightMargin">Failed to set the left and right margins.</string>
+    <string name="printLeftRightTip">(left margin+right margin≤ 47)</string>
+
+    <string name="printNotEmpty">Height cannot be empty!</string>
+    <string name="printHeightTip">Height (1-255!)</string>
+    <string name="print_upca">UPC-A barcode must be 11 digits!</string>
+    <string name="print_upce">UPC-E barcode must be 6 digits!</string>
+    <string name="print_jan13">JAN13(EAN13) barcode must be 12 digits!</string>
+    <string name="print_jan8">JAN8(EAN8)barcode must be 7 digits!</string>
+    <string name="print_code39">CODE39 barcode must be less than 255, barcode content must be 0 to 9 A to Z Space $ % * + -./</string>
+    <string name="print_itf">ITF (Interleaved 2 of 5) barcode length must be lower than 255 (even number)!</string>
+    <string name="print_codabar">CODABAR(NW-7) barcode length must be 3-255, barcode start charactor and end charactor must be (A to D), other content is 0 to 9 $ + - . / :</string>
+    <string name="print_code93">CODE93 barcode length must be less than 255!</string>
+    <string name="print_code128">CODE128 barcode length must be lower than 255!</string>
+    <string name="print_ucc">UCC/EAN128 barcode length must be less than 255!</string>
+    <string name="print_1">barcode width is 1,barcode length must be less than 39.</string>
+    <string name="print_2">barcode width is 2, barcode print length must be less than 18.</string>
+    <string name="print_3">barcode width is 3, barcode length must be less than 11.</string>
+    <string name="print_4">barcode width is 4, barcode length must be less than 6.</string>
+    <string name="print_5">barcode width is 5, barcode length must be less than 5.</string>
+    <string name="print_6">barcode width is 6, barcode length must be equal to 1.</string>
+    <string name="print_7">barcode data length must be in the current range of barcode length to print!</string>
+    <string name="print_notBarcode">Barcode data cannot be empty.</string>
+    <string name="print_initconfig">init config</string>
+    <string name="print_success">success</string>
+    <string name="print_fail">fail.</string>
+    <string name="btnUHF_enable">Enable</string>
+    <string name="send">send</string>
+    <string name="clear">clear</string>
+    <string name="PrintContent">Print Content</string>
+</resources>

@@ -1,0 +1,124 @@
+<resources>
+    <string name="title_activity_app_config">配置</string>
+    <string name="title_activity_printerMain">打印</string>
+    <string name="Print">Print</string>
+    <string name="app_name">demo-printer</string>
+    <string name="title_printer_barcode">打印条码</string>
+    <string name="title_printer_pic">打印图片</string>
+    <string-array name="arrayBarcodeType">
+        <item>UPC-A</item>
+        <item>UPC-E</item>
+        <item>JAN13(EAN13)</item>
+        <item>JAN8(EAN8)</item>
+        <item>CODE39</item>
+        <item>ITF(Interleaved 2 of 5)</item>
+        <item>CODABAR(NW-7)</item>
+        <item>CODE93</item>
+        <item>CODE128</item>
+        <item>UCC/EAN128</item>
+        <item>QR</item>
+    </string-array>
+    <string-array name="BarcodeWidth">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="spBarcodePosition">
+        <item>不显示</item>
+        <item>条码的上方</item>
+        <item>条码的下方</item>
+        <item>条码的上方和下方</item>
+    </string-array>
+    <string name="printing">正在打印...</string>
+    <string name="printNormal">打印机正常.</string>
+    <string name="printOverpressure">打印机过压.</string>
+    <string name="printLackofpaper">打印机缺纸</string>
+    <string name="printOverheating">打印机过热</string>
+    <string name="printPressureaxisopen">打印机压轴打开</string>
+    <string name="printPaperstuck">打印机卡纸</string>
+    <string name="printSlicingerror">打印机切片错误</string>
+    <string name="printPaperfinish">打印机纸将尽</string>
+    <string name="printCancelpaper">打印机,用户未取纸</string>
+    <string name="printLeisure">打印机闲</string>
+    <string name="printUnleisure">打印机忙</string>
+    <string name="printBarcodeType">条码类型</string>
+    <string name="printBarcodeHeight">条码高度</string>
+    <string name="printBarcodeWidth">条码宽度</string>
+    <string name="printBarcodeChar">字符位置</string>
+    <string name="printSpeed">打印速度</string>
+    <string name="printGray">打印灰度</string>
+    <string name="printLeftMargin">左边距</string>
+    <string name="printRightMargin">右边距</string>
+    <string name="printRowSpacing">行间距</string>
+    <string name="printItalic">斜体</string>
+    <string name="printFrame">边框</string>
+    <string name="printBold">加粗</string>
+    <string name="printDoubleWidth">倍宽</string>
+
+    <string name="printSet">设置</string>
+    <string name="printDoubleHight">倍高</string>
+    <string name="printWhite">反白</string>
+    <string name="printUnderline">下划线</string>
+
+    <string name="printRowSpacingFail">设置行间距失败</string>
+    <string name="printLeftRightMargin">设置左右边距失败</string>
+    <string name="printLeftRightTip">(左边距+右边距≤ 47)</string>
+
+    <string name="printNotEmpty">高度不能为空!</string>
+    <string name="printHeightTip">高度1-255!</string>
+    <string  name="print_upca">UPC-A 类型的条码必须为11位数字!</string>
+    <string  name="print_upce">UPC-E 类型的条码必须为6位数字!</string>
+    <string  name="print_jan13">JAN13(EAN13) 类型的条码必须为12位数字!</string>
+    <string  name="print_jan8">JAN8(EAN8) 类型的条码必须为7位数字!</string>
+    <string  name="print_code39">CODE39 类型的条码长度必须小于255，条码内容只能是 0~9  A~Z  Space  $   %  *  +  -  . /</string>
+    <string  name="print_itf">ITF (Interleaved 2 of 5) 类型的条码长度必须是小于255的偶数!</string>
+    <string  name="print_codabar">CODABAR(NW-7) 类型的条码长度必须是3-255，条码的开始和结束符必须是(A~D),其他内容只能是 0~9 $  +  -  .  / :</string>
+    <string  name="print_code93">CODE93 类型的条码长度必须小于255!</string>
+    <string  name="print_code128">CODE128 类型的条码长度必须小于255!</string>
+    <string  name="print_ucc">UCC/EAN128 类型的条码长度必须小于255!</string>
+    <string  name="print_1">条码宽度为1，打印的条码长度必须小于39.</string>
+    <string  name="print_2">条码宽度为2，打印的条码长度必须小于18.</string>
+    <string  name="print_3">条码宽度为3，打印的条码长度必须小于11.</string>
+    <string  name="print_4">条码宽度为4，打印的条码长度必须小于6.</string>
+    <string  name="print_5">条码宽度为5，打印的条码长度必须小于5.</string>
+    <string  name="print_6">条码宽度为6，打印的条码长度只能等于1.</string>
+    <string  name="print_7">条码数据的长度必须在当前设置的条码宽度可打印的范围之内!</string>
+    <string  name="print_notBarcode">条码数据不能为空</string>
+    <string name="print_initconfig">配置打印机</string>
+    <string name="print_success">成功.</string>
+    <string name="print_fail">失败.</string>
+    <string name="btnUHF_enable">启用</string>
+    <string name="msg_login_ing">加载中....</string>
+    <string name="success">成功.</string>
+    <string name="fail">失败.</string>
+    <string name="start_test_off">停止测试.</string>
+    <string name="start_test_on">开始测试.</string>
+    <string name="text">注意，测试先打开GPRS连接。</string>
+
+    <string-array name="arrayPrintSpeed">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="arrayPrintGray">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="arrayMorphoSafe">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="send">发送</string>
+    <string name="clear">清空</string>
+    <string name="PrintContent">打印内容</string>
+</resources>
